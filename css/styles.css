@@ -31,10 +31,12 @@ p{
 
 .h1 {
     font-size: 360%;
+    padding-left: 20%;
 }
 
 .p1 {
     font-size: 220%;
+    padding-left: 20%;
 }
 
 .p2 {
@@ -57,13 +59,22 @@ p{
 
 .h4{
     font-size: 300%;
+    padding-left: 5%;
 }
 
 .p4{
     font-size: 220%;
 }
 
+.p5 {
+    color: white;
+    padding-left: 20%;
+    font-size: 15px;
+}
 
+.abajo {
+vertical-align: top;
+}
 
 .imgc3 {
     height: 100%;
@@ -94,6 +105,7 @@ h3{
 
 h4{
     font-size: 1.3rem;
+
 }
 
 h5{
@@ -103,7 +115,7 @@ h5{
 
 
 .h6{
-font-size: 300%;
+font-size: 320%;
 text-align: center;
 }
 /**************************/
@@ -120,18 +132,20 @@ body{
 
 .fondo2 {
     background-color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .p3 {
     color: white;
     padding-left: 20%;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 .p4 {
-    color: white;
-    padding-left: 20%;
-    font-size: 10px;
+    color: black;
+    padding-left: 5%;
+    font-size: 200%;
 }
 
 /* Clear floats after the columns */
@@ -222,11 +236,12 @@ body{
         padding-left: 10%;
         padding-right: 10%;
 
-        font-size: 340%;
+        font-size: 310%;
     }
     .p4 {
         padding-left: 10%;
         padding-right: 10%;  
+        color: black;
       }
       .img4 {
           margin-top: -4px;
@@ -236,7 +251,15 @@ body{
 
       }
       .p4 {
-         font-size: 160%; 
+         font-size: 220%; 
+      }
+      .p5 {
+          font-size: 160%;
+          padding-left: 10%;
+      }
+      
+      .flex {
+        display: block;
       }
     }
      
